@@ -1,0 +1,29 @@
+.content {
+  padding: 3rem;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 14px 4px gainsboro;
+  width: 100%;
+  @media screen and (max-width: 992px) {
+    width: 16em;
+    padding: 1.5rem;
+  }
+}
+.weatherData {
+  display: flex;
+}
+.weatherIcon {
+  border-radius: 1em;
+}
+
+.container > button {
+  padding: 1rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.container > button:hover {
+  cursor: pointer;
+  background-color: gainsboro;
+}
